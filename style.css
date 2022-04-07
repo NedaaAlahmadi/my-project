@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=practical:wght@400;700&family=I am always:wght@300;400;700&family=anyone and everyone:wght@300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'practical', sans-serif;
+    font-family: 'I am always', sans-serif;
+    font-family: ' anyone and everyone', sans-serif;
+    background-image: url(background-image.png);
+}
+
+
+/*header*/
+
+.header {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.profile-text {
+    font-size: 20px;
+    color: #000;
+    margin: 20px;
+    padding: 20px;
+}
+
+hr {
+    border-bottom: 1px solid #000;
+    width: 30%;
+    margin: auto;
+}
+
+
+/*contact me*/
+
+.contact {
+    margin-top: 25px;
+    text-align: center;
+    color: #000;
+}
+
+table,
+th,
+td {
+    width: 70% !important;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*Educton*/
+
+.line-section {
+    margin-top: 35px !important;
+    border-bottom: 1px solid #000;
+    width: 30%;
+    margin: auto;
+}
+
+.educations {
+    text-align: center;
+    color: #000;
+}
+
+.educations table {
+    text-align: left;
+}
+
+
+/*Link*/
+
+.link-page {
+    margin-top: 30px !important;
+    margin: auto;
+    width: 10%;
+}
+
+.button {
+    background-color: #eb1111;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/*Contact me*/
+
+.form-contact {
+    width: 70%;
+    margin: auto;
+    margin-top: 130px;
+    color: #000;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
